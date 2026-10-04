@@ -1,0 +1,9 @@
+Step,Description
+Column name standardization,Removed extra spaces from column names.
+Exact duplicate removal,Removed exact duplicate records.
+Date conversion,Converted Order Date and Ship Date to datetime.
+Numeric conversion,Converted sales measures to numeric types.
+Postal code handling,Preserved missing postal codes as Unknown.
+Essential missing value handling,Removed records missing essential analytical fields.
+Feature engineering,"Created Shipping Days, Order Month, Order Year, Profit Margin and Sales per Unit."
+Outlier detection,Identified potential outliers using the IQR method; did not automatically remove valid extreme values.
